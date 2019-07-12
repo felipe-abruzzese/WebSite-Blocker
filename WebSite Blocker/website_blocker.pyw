@@ -24,4 +24,4 @@ while True:
                 if not any(website in line for website in website_list):
                     file.write(line)
             file.truncate()
-    time.sleep(5)
+    time.sleep(4)
